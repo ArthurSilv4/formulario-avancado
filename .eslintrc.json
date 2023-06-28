@@ -1,3 +1,25 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "@rocketseat/eslint-config/react"],
+
+  "plugins": [
+    "eslint-plugin-import-helpers"
+  ],
+
+  "rules": {
+    
+    "import-helpers/order-imports":[
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": [
+          ["/^react/", "/^next/", "/@next/"],
+          "/components/",
+          "/modue/",
+          "/^@shared/",
+          ["parent","sibling","index"]
+        ],
+        "alphabetize":{"order":"asc","ignoreCase":true}
+      }
+    ]
+  }
 }
