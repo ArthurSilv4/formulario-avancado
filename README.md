@@ -6,7 +6,7 @@
 O projeto teve como objetivo estudar e aprender um pouco mais sobre formulários avaçados usando [React-hook-form](https://www.react-hook-form.com) com [zod](https://zod.dev/?id=table-of-contents).
 
 # Layout
-![Layout](https://raw.githubusercontent.com/ArthurSilv4/Login/telaPrincipal-png) 
+![Layout](https://github.com/ArthurSilv4/login/blob/main/github/telaPrincipal.png?raw=true) 
 
 # Tecnologias utilizadas
 
